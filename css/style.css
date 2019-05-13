@@ -1,0 +1,130 @@
+body{
+	overflow-x: hidden;
+}
+header{
+	position: absolute;
+	background: linear-gradient(to bottom, rgba(38,38,38,1) 0%,rgba(255,255,255,0) 100%);
+	padding: 0 30px 0 30px;
+	z-index: 5;
+}
+
+header .logo img{
+	width: 130px;
+	padding:10px 0 10px 0;
+	cursor: pointer;
+	float: left;
+}
+nav{
+	margin: 100px;
+	padding: 0;
+}
+
+header nav ul{
+	list-style-type: none;
+    display: flex;
+  	margin-block-start: 0;
+  	margin-block-end: 0;
+  	padding-inline-start: 0;
+    text-transform: uppercase;
+    margin-left: -50px;
+    flex:1;
+}
+.mainContainer .Container-row .Container-col:nth-child(1){
+	flex:1;
+}
+.mainContainer .Container-row .Container-col:nth-child(2){
+	margin: 0;
+	padding: 0;
+	flex:1;
+}
+
+.Headerphone{
+	color: white;
+	display: flex;
+	align-items: center;
+}
+header nav ul li a{
+	margin-top: 7px;
+	height: 72px;
+	line-height: 72px;
+	padding: 0 20px;
+	font-size: 18px;
+	color: #fff;
+	text-decoration: none;
+	display: block;
+}
+
+header nav ul li a:hover,
+header nav ul li a.active{
+	color: #fff;
+	opacity: 0.5;
+}
+header nav ul li a:hover{
+	transition: 0.5s;
+}
+.burger{
+			 padding-top: 25px;
+			display: none;
+			cursor: pointer;
+			float: right;
+			
+		}
+		.burger div{
+			width: 25px;
+			height: 2px;
+			background-color: #fff;
+			margin: 5px;
+			transition: all 0.3s ease;
+		}
+
+@media screen and (max-width: 991px){
+			
+			header{
+				position: fixed;
+				padding: 0;
+				background: linear-gradient(to bottom, rgba(48,48,48,0.89) 0%,rgba(35,35,35,1) 100%);
+			}
+			.Headerphone{
+				display: none;
+			}
+			.logo{
+				padding-left: 30px;
+			}
+			.burger{
+				display: block;
+				padding-right: 30px;
+			}
+			header nav{
+			position: fixed;
+			width: 100%;
+			height: calc(100vh - 50px);
+			top: 87px;
+			right: -150%;
+			background: linear-gradient(to bottom, rgba(48,48,48,1) 0%,rgba(35,35,35,0.61) 100%);
+			transition: 0.5s;
+			}
+			
+			header nav ul{
+				display: block;
+				text-align: center;
+			}
+			header nav ul li a{
+				height: 52px;
+				line-height: 52px;
+				padding-left: 50px;
+				border-bottom: 1px solid rgba(0,0,0,.2);
+					}
+					
+				
+			}
+
+
+
+.toAnim {
+  opacity: 0;
+  transition: opacity 1.5s ease 0s;
+}
+
+.toAnim.anim {
+  opacity: 1;
+}

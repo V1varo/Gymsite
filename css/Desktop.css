@@ -1,0 +1,262 @@
+@media(min-width: 700px){
+	body{
+		box-sizing: border-box;
+	}
+	.mainContainer{
+		flex-direction: row;
+	}
+	.Container-row{
+		width: 1236px;
+		margin: auto;
+		display: flex;
+	}
+	.Container-col{
+		min-height: 30px;
+	}
+	
+
+}
+@media(min-width: 991px){
+			.Banner {
+		     background: url(../img/banner.jpg);
+		  width: 100%;
+		  height: 130vh;
+		  background-position: center;
+		  background-size: cover;
+		  z-index: -1;
+		}
+		.slogan1{
+			font-style: italic; 
+			line-height: 80%; 
+			font-weight: 700;
+		}
+		.slogan2{
+			 font-size: 96px;
+		}
+		.slogan3{
+			margin-top: 50px; 
+			font-size: 35px; 
+			font-style: italic; 
+			line-height: 50%; 
+			font-weight: 300;
+		}
+		.bannerText{
+		    text-align: left;
+			color: white;
+			font-size: 126px;
+			padding-left: 50px;
+			margin: 35% 0 auto 0;
+				}
+		.D1 {
+			position: absolute;
+		   height: 55px;
+		  width: 15px;
+		  margin-top: -17px;
+		  margin-left: -10px;
+		  padding-right: : 100px;
+		  background-color: #2f80d4;
+		}
+		.space{
+			padding-left: 20px;
+		}
+		.button{
+			margin: -35px 0 0 -10px;
+			transform: skewX(-3deg);
+		}
+		.button a{
+
+			color: #fff;
+			font-size: 33px;
+			padding: 10px;
+			font-weight: 700;
+		 	border: 5px solid #fff;
+			text-transform: uppercase;
+			text-decoration: none;
+		}
+		.button a:hover{
+			background-color: #fff;
+			color: #333;
+		}
+		.section1{
+			background: linear-gradient(rgba(0, 0, 0, 1), rgba(40,40,40, 0)), url(../img/section1.jpg);
+			width: 100%;
+			height: 100vh;
+			background-position: 50%;
+			background-size: cover;
+			z-index: -1;
+			transform: scaleX(-1);
+		}
+		.section--1{
+			margin: 30% 10% 50% 0;
+			color: #fff;
+			transform: scaleX(-1);
+
+		}
+		.section1 .Container-col h1{
+			font-size: 115px;
+			text-align: right;
+			font-style: italic;
+			line-height: 54%;
+			padding-right: 10%; 
+		}
+		.section1 .Container-col h1 span{
+			font-size: 65px;
+			font-weight: 200;
+			color: #2f80d4;
+		}
+		.section1 .Container-col .D1{
+		   height: 15px;
+		  width: 105px;
+		  margin: 10% 0 0 -130px;
+		  background-color: #2f80d4;
+		}
+		.section1 .Container-col p{
+			font-family: 'Noto Sans SC', sans-serif;
+			font-size: 25px;
+			text-align: left;
+			font-weight: 200;
+			line-height: 140%;
+			padding-top: 16%;
+		}
+		.section--2{
+			display: block;
+		}
+		.Section2{
+		display: flex;
+		margin-top:-2px;
+		
+	}
+
+
+		.sect--2-1{
+			width: 100%; padding: 5%; 
+			background-color: #2f80d4; 
+			min-height: 50vh; 
+			flex:1;
+
+		}
+		.sect--2-1 .Container-row{
+			width:100%;
+			
+		}
+		.sect--2-1 .Container-row .Container-col{
+			border: 10px solid #fff; 
+			min-height: 70vh;
+			padding: 10%;
+			text-align: left;
+			color: white;
+			display: flex;
+			flex-direction: column;
+
+		}
+		.sect--2-1 .Container-row .Container-col h2{
+			font-weight: 200;
+			margin: 10% 0 0 0;
+			justify-content: center;
+			font-size: 72px;
+			font-style: italic;
+			line-height: 120%;
+		}
+		.sect--2-1 .Container-row .Container-col p{
+			font-family: 'Noto Sans SC', sans-serif;
+			font-size: 24px;
+			padding: 10% 0 0 10%;
+		}
+		.sect--2-2{
+			background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(40,40,40, 0.2)), url(../img/section2.jpg); 
+			background-size: cover;
+			background-position: right;
+			width: 100%; 
+			min-height: 50vh; 
+			flex:1;
+		}
+		 
+		.sect--2-2 .Container-row{
+			width: 100%; 
+		}
+
+
+		.Section3{
+			background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(40,40,40, 0.8)), url(../img/section3.jpg);
+			min-height: 20vh;
+			background-size: cover;
+			background-position:50%;
+			color: #fff;
+		}
+		.Section3 .mainContainer .Container-row .Container-col{
+			margin: 50% 0 50% 0;
+		}
+		.Section3 .mainContainer .Container-row .Container-col h2{
+			font-weight: 200;
+			font-size: 72px;
+			line-height: 120%;
+		}
+		.Section3 .mainContainer .Container-row .Container-col p{
+			font-family: 'Noto Sans SC', sans-serif;
+			padding-top: 40px;
+			font-size: 24px;
+		}
+		.Section3 .mainContainer .Container-row .Container-col .button{
+			margin: initial;
+			padding-top: 40px;
+		}
+		.footerbg{
+			background-color: #151516;
+
+		}
+		.footerbg nav{
+			margin: 5% 0 0 0;
+		}
+		.footerbg nav ul{
+			display: flex; 
+			justify-content:center; 
+			list-style: none;
+			margin-block-start: 0;
+		    margin-block-end: 0;
+		    padding-inline-start: 0;
+		}
+		.footerbg nav ul li{
+			padding-left: 10px;
+		}
+		.footerbg nav ul li:first-child{
+			padding-left:0px;
+		}
+		.footerbg nav ul li a{
+			 text-decoration: none;
+			 text-transform: uppercase;
+			 color: #fff;
+		}
+		.footerbg nav ul li a:hover{
+			opacity: 0.5;
+		}
+		.footerbg h3{
+			padding-top: 30px;
+			color: #fff;
+			font-weight: 200;
+			font-size: 35px;
+			text-transform: uppercase;
+		}
+		.footerbg h3 span{
+			color: #2F80D4;
+			font-weight: bold;
+		}
+		.contactInfo{
+			text-align: left; 
+			display: inline-flex; 
+			padding:30px 0 5% 0; 
+			color: #fff; 
+		}
+		.contactInfo div{
+			padding-left: 170px;
+		}
+		.contactInfo div p{
+			padding-bottom: 10px; 
+		}
+		.contactInfo div a{
+			color: #2F80D4;
+			text-decoration: none;
+		}
+		.contactInfo div:first-child{
+			padding-left: 0px;
+		}
+}
