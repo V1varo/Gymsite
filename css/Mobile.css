@@ -3,7 +3,7 @@
 
 *{
 	transition: all 0.2s ease-in-out;
-	
+
 }
 body, h1, h2, h3, h4, h5, h6, p, div{
 	margin: 0;
@@ -34,7 +34,7 @@ text-align: center;
 	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(40,40,40, 0.2)), url(../img/mobilebanner.jpg);
 	 width: 100%;
 	 min-height: 130vh;
-	 background-position: center;
+	 background-position: fixed;
 	 background-size: cover;
 	 z-index: -1;
 	 padding-bottom: 50px;
@@ -158,7 +158,7 @@ text-align: center;
 			border: 7px solid #fff; 
 			min-height: 70vh;
 			padding: 10%;
-			text-align: left;
+			text-align: center;
 			color: white;
 			display: flex;
 			flex-direction: column;
@@ -195,7 +195,7 @@ text-align: center;
 			background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(40,40,40, 0.8)), url(../img/section3.jpg);
 			min-height: 20vh;
 			background-size: cover;
-			background-position: -100px;
+			
 			color: #fff;
 		}
 		.Section3 .mainContainer .Container-row .Container-col{
@@ -273,3 +273,197 @@ text-align: center;
 		.contactInfo div:first-child{
 			padding-left: 0px;
 		}
+
+
+/*TRAINING PAGE*/
+
+
+.TrainingBanner{
+				  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../img/trainingBanner.jpg);
+				  width: 100%;
+				  height: 100vh;
+				  background-position: center;
+				  background-size: cover;
+				  z-index: -1;
+		}
+.TrainingBanner .bannerText{
+    text-align: center;
+	color: white;
+	font-size: 65px;
+	margin: 40% 0 auto 0;
+		}
+		.TrainingBanner .slogan2{
+					 font-size: 65px;
+				}
+
+		.TrainingBanner .Container-col .D1{
+				  position: relative;
+				  height: 15px;
+				  width: 105px;
+				  top: 40px;
+				  left: 45%;
+				  background-color: #2f80d4;
+				}
+		.Trainingsectionsection{
+			        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/trainingSection1.jpg);
+					width: 100%;
+					height: 100vh;
+					background-position: 50%;
+					background-size: cover;
+					z-index: -1;
+					transform: scaleX(-1);
+					
+		}
+		.Trainingsectionsection2{
+					background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../img/trainingSection2.jpg);
+					width: 100%;
+					height: 100vh;
+					background-position: 50%;
+					background-size: cover;
+					z-index: -1;
+					transform: scaleX(-1);
+
+		}
+		.Trainingsectionsection3{
+					background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/trainingSection3.jpg);
+					width: 100%;
+					height: 100vh;
+					background-position: 50%;
+					background-size: cover;
+					z-index: -1;
+					transform: scaleX(-1);
+
+		}
+
+		.Trainingsection1 .Container-col .section--1{
+			margin: 0 10% 10% 10%;
+			transform: scaleX(-1);
+			padding-left: 130px;
+		}
+		.Trainingsection1 .Container-col .D1{
+				height: 10px;
+				  width: 105px;
+				 margin: 40px 50% 0 45%;
+				  background-color: #2f80d4;
+				}
+
+		.Trainingsection1 .Container-col h1{
+			margin: -40% 0 0 0;
+					font-size: 55px;
+					text-align: center;
+					line-height: 90%;
+					font-style: italic;
+				}
+		.Trainingsection1 .Container-col h1 span{
+					font-size: 55px;
+					font-weight: 200;
+					color: #2f80d4;
+				}
+		.Trainingsection1 .Container-col p{
+			font-family: 'Noto Sans SC', sans-serif;
+					font-size: 16px;
+					text-align: center;
+					font-weight: 200;
+					line-height: 140%;
+					padding: 65px 0 0 10px;
+		}
+		
+		.Trainingsection1 .Trainingsection--2{
+			transform: scaleX(-1);
+		}
+		.Trainingsection1 .Trainingsection--2 .button{
+			margin: -45% 0 0 0;
+		}
+		.divfoot{
+			background-color: #2f80d4;
+		}
+		.divfoot .Container-row{
+			padding:30px; color: #fff; 
+			font-style: italic;
+			font-size: 25px; 
+		}
+
+/*Contact PAGE*/
+.TrainingBannercontact{
+	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/contactbanner.jpg);
+	width: 100%;
+	height: 100vh;
+	background-position: 50%;
+	background-size: cover;
+	z-index: -1;
+}
+.TrainingBannercontact .Container-col .D1{
+				height: 10px;
+				  width: 105px;
+				 margin: 40px 50% 0 40%;
+				  background-color: #2f80d4;
+				}
+.contactusbanner{
+	background-color: #222;
+	padding: 10px;
+}
+.contact-Form{
+	width: 100%;
+	padding-right: 30px;
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+
+.txtb{
+	margin: 3px 0;
+	padding: 12px 18px;
+}
+.txtb label{
+	display: block;
+	text-align: left;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+.txtb input,.txtb textarea{
+	width: 100%;
+	border: 5px solid #fff;
+	padding: 10px;
+	background: none;
+	outline: none;
+	font-family: 'Oswald', sans-serif;
+	font-size: 18px;
+	margin-top: 6px;
+}
+
+textarea{
+	height: 100px;
+}
+input[type=submit]{
+	width:200px;
+	background-color: #121212;
+	border: 5px solid #fff;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	text-transform: uppercase;
+
+}
+input[type=submit]:hover{
+	transition: 0.5s;
+	background-color: #121212;
+	
+}
+
+input[type=text]:focus, input[type=email]:focus, textarea:focus{
+	border: 5px solid #fff;
+	transition: 0.2s ease-in;
+	
+}
+input[type="text"], input[type="email"],input[type="number"], textarea{
+	color: #fff;
+	font-weight: 200;
+}
+
+::-webkit-input-placeholder, ::-webkit-textarea-placeholder{
+	color: #fff;
+}
