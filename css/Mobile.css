@@ -240,7 +240,7 @@ text-align: center;
 			 text-transform: uppercase;
 			 color: #fff;
 		}
-		.footerbg nav ul li a:hover{
+		.footerbg nav ul li a:hover, .active{
 			opacity: 0.5;
 		}
 		.footerbg h3{
